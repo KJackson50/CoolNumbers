@@ -1,0 +1,2 @@
+# CoolNumbers
+January - Weekly Project
