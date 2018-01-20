@@ -24,6 +24,7 @@ do {
 			
 			String s = String.valueOf(i);
 			
+			//make this a function?
 			for(int x=0; x<s.length(); x++) {
 				//char ch = s.charAt(x);
 				int digit = Character.getNumericValue(s.charAt(x));
@@ -34,15 +35,20 @@ do {
 			}
 		if(sum == 1) {
 				total += i;
+				sum = 0;
 				exit = false;
 			}
-			else if(sum == 4) {
+		if (sum == 4) {
 				uncoolCount++;	
+				sum = 0;
 				exit = false;
 			}
-			else if (i == 23) {
-				exit= true;
-			}
+		
+		else {
+			//need to loop back to x for loop
+			exit = true;
+		}
+
 		}
 }while(exit = false);
 
@@ -51,6 +57,6 @@ do {
 		
 	}
 	
-	//need to figure out this do/while loop
+	
 
 }
