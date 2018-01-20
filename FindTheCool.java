@@ -13,7 +13,14 @@ public class FindTheCool {
 		 if(ch == '1')
 		    count ++;
 		}
+		
+		//example of s.charAt() in action
 		System.out.println(s.charAt(0));
+		//example of Character.getNum in action
+		System.out.println(Character.getNumericValue(s.charAt(0)));
+		
+		int digit1 = Character.getNumericValue(s.charAt(0));
+		System.out.println(digit1);
 
 	}
 
