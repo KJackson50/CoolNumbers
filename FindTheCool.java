@@ -24,7 +24,7 @@ do {
 			
 			String s = String.valueOf(i);
 			
-			//make this a function?
+			//MAKE A FUNCTION
 			for(int x=0; x<s.length(); x++) {
 				//char ch = s.charAt(x);
 				int digit = Character.getNumericValue(s.charAt(x));
